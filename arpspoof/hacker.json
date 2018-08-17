@@ -43,9 +43,5 @@
     },
 	"privileged": true,
 	"authRequired": true,
-    "tags": [
-        "31",
-        "17"
-    ],
     "info": "https://gitlab.com/rkalyana/trycybsi/blob/master/containers/ArpSpoof"
 }
