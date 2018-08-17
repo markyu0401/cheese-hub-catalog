@@ -4,9 +4,9 @@
     "description": "",
     "logo": "/asset/png/logos/ndslabs-badge.png",
     "image": {
-        "name": "timwang/ieeetrycybsecurityvncdesktop:9.0",
+        "name": "timwang/ieeetrycybsecurityvncdesktop",
         "tags": [
-            "latest"
+            "9.0"
         ]
     },
     "access": "external",
@@ -30,5 +30,6 @@
         "memMax": 100,
         "memDefault": 50
     },
+	"authRequired": true,
     "info": "https://gitlab.com/rkalyana/trycybsi/blob/master/containers/ArpSpoof"
 }

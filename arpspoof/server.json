@@ -4,9 +4,9 @@
     "description": "",
     "logo": "/asset/png/logos/ndslabs-badge.png",
     "image": {
-        "name": "timwang/ieeetrycybserverapacheflaskappsslhstsrewrite:4.0",
+        "name": "timwang/ieeetrycybserverapacheflaskappsslhstsrewrite",
         "tags": [
-            "latest"
+            "4.0"
         ]
     },
     "access": "external",
@@ -30,5 +30,6 @@
         "memMax": 100,
         "memDefault": 50
     },
+	"authRequired": true,
     "info": "https://gitlab.com/rkalyana/trycybsi/blob/master/containers/ArpSpoof"
 }

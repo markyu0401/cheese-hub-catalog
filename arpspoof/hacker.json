@@ -4,9 +4,9 @@
     "description": "",
     "logo": "/asset/png/logos/ndslabs-badge.png",
     "image": {
-        "name": "timwang/ieeetrycybsecurity:11.0",
+        "name": "timwang/ieeetrycybsecurity",
         "tags": [
-            "latest"
+            "11.0"
         ]
     },
     "display": "stack",
@@ -41,6 +41,8 @@
         "memMax": 100,
         "memDefault": 50
     },
+	"privileged": true,
+	"authRequired": true,
     "tags": [
         "31",
         "17"
