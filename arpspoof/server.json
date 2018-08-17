@@ -1,0 +1,35 @@
+{
+    "key": "arspoofserver",
+    "label": "ArpSpoof Server",
+    "description": "",
+    "logo": "/asset/png/logos/ndslabs-badge.png",
+    "image": {
+        "name": "timwang/ieeetrycybserverapacheflaskappsslhstsrewrite:4.0",
+        "tags": [
+            "latest"
+        ]
+    },
+    "display": "stack",
+    "access": "internal",
+    "ports": [
+        {
+            "port": 80,
+            "protocol": "http",
+            "contextPath": "/"
+        }
+    ],
+    "readinessProbe": {
+        "type": "tcp",
+        "path": "",
+        "port": 80,
+        "initialDelay": 30,
+        "timeout": 500
+    },
+    "resourceLimits": {
+        "cpuMax": 100,
+        "cpuDefault": 100,
+        "memMax": 100,
+        "memDefault": 50
+    },
+    "info": "https://gitlab.com/rkalyana/trycybsi/blob/master/containers/ArpSpoof"
+}

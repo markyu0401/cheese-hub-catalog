@@ -1,0 +1,39 @@
+{
+    "key": "arspoofhacker",
+    "label": "ArpSpoof Hacker",
+    "description": "",
+    "logo": "/asset/png/logos/ndslabs-badge.png",
+    "image": {
+        "name": "timwang/ieeetrycybsecurity:11.0",
+        "tags": [
+            "latest"
+        ]
+    },
+    "display": "stack",
+    "access": "external",
+    "ports": [
+        {
+            "port": 3000,
+            "protocol": "http",
+            "contextPath": "/"
+        }
+    ],
+    "readinessProbe": {
+        "type": "tcp",
+        "path": "",
+        "port": 3000,
+        "initialDelay": 30,
+        "timeout": 500
+    },
+    "resourceLimits": {
+        "cpuMax": 100,
+        "cpuDefault": 100,
+        "memMax": 100,
+        "memDefault": 50
+    },
+    "tags": [
+        "31",
+        "17"
+    ],
+    "info": "https://gitlab.com/rkalyana/trycybsi/blob/master/containers/ArpSpoof"
+}
