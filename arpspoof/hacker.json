@@ -11,6 +11,16 @@
     },
     "display": "stack",
     "access": "external",
+    "depends": [
+        {
+            "key": "arpspoofvictim",
+            "required": true
+        },
+        {
+            "key": "arpspoofserver",
+            "required": true
+        }
+    ],
     "ports": [
         {
             "port": 3000,

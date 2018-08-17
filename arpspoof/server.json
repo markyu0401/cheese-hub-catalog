@@ -9,8 +9,7 @@
             "latest"
         ]
     },
-    "display": "stack",
-    "access": "internal",
+    "access": "external",
     "ports": [
         {
             "port": 80,
