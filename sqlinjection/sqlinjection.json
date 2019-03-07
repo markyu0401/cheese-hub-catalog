@@ -1,22 +1,14 @@
 {
-    "key": "arpspoofhacker",
-    "label": "ArpSpoof",
-    "description": "Demonstration of the ARP Poisoning attack",
+    "key": "sqlinjection",
+    "label": "SQL Injection",
+    "description": "Demonstration of an SQL injection attack and fix",
     "logo": "/asset/png/logos/ndslabs-badge.png",
     "image": {
-        "name": "rkalyana/arpspoof-hacker"
+        "name": "rkalyana/sqlinjection"
     },
     "display": "stack",
     "access": "external",
     "depends": [
-        {
-            "key": "arpspoofvictim",
-            "required": true
-        },
-        {
-            "key": "arpspoofserver",
-            "required": true
-        }
     ],
     "ports": [
         {
@@ -40,5 +32,5 @@
     },
 	"privileged": true,
 	"authRequired": true,
-    "info": "https://github.com/cheese-hub/arpspoof/tree/master/hacker-notebook"
+    "info": "https://github.com/cheese-hub/sqlinjection"
 }

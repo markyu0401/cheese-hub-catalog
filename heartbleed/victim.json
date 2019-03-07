@@ -1,15 +1,15 @@
 {
-    "key": "arpspoofserver",
-    "label": "ArpSpoof Server",
-    "description": "",
+    "key": "heartbleedvictim",
+    "label": "HeartBleed Victim",
+    "description": "Demonstration of the HeartBleed bug in the OpenSSL library",
     "logo": "/asset/png/logos/ndslabs-badge.png",
     "image": {
-        "name": "rkalyana/arpspoof-server"
+        "name": "rkalyana/heartbleed-victim"
     },
     "access": "external",
     "ports": [
         {
-            "port": 8888,
+            "port": 80,
             "protocol": "http",
             "contextPath": "/"
         }
@@ -17,16 +17,16 @@
     "readinessProbe": {
         "type": "tcp",
         "path": "",
-        "port": 8888,
+        "port": 80,
         "initialDelay": 30,
         "timeout": 500
     },
     "resourceLimits": {
-        "cpuMax": 100,
+        "cpuMax": 1000,
         "cpuDefault": 100,
-        "memMax": 500,
-        "memDefault": 200
+        "memMax": 4096,
+        "memDefault": 100
     },
 	"authRequired": true,
-    "info": "https://github.com/cheese-hub/arpspoof/tree/master/server"
+    "info": "https://github.com/rkalyanapurdue/heartbleed/tree/master/heartbleed-victim"
 }

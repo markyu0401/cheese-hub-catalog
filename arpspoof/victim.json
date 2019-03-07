@@ -4,15 +4,12 @@
     "description": "",
     "logo": "/asset/png/logos/ndslabs-badge.png",
     "image": {
-        "name": "timwang/ieeetrycybsecurityvncdesktop",
-        "tags": [
-            "9.0"
-        ]
+        "name": "rkalyana/arpspoof-victim"
     },
     "access": "external",
     "ports": [
         {
-            "port": 6080,
+            "port": 80,
             "protocol": "http",
             "contextPath": "/"
         }
@@ -20,7 +17,7 @@
     "readinessProbe": {
         "type": "tcp",
         "path": "",
-        "port": 6080,
+        "port": 80,
         "initialDelay": 30,
         "timeout": 500
     },
@@ -31,5 +28,5 @@
         "memDefault": 100 
     },
 	"authRequired": true,
-    "info": "https://gitlab.com/rkalyana/trycybsi/blob/master/containers/ArpSpoof"
+    "info": "https://github.com/cheese-hub/arpspoof/tree/master/victim-vnc"
 }

@@ -1,26 +1,26 @@
 {
-    "key": "arpspoofhacker",
-    "label": "ArpSpoof",
-    "description": "Demonstration of the ARP Poisoning attack",
+    "key": "heartbleedhacker",
+    "label": "HeartBleed Hacker",
+    "description": "Demonstration of the HeartBleed bug in the OpenSSL library",
     "logo": "/asset/png/logos/ndslabs-badge.png",
     "image": {
-        "name": "rkalyana/arpspoof-hacker"
+        "name": "rkalyana/heartbleed-hacker"
     },
     "display": "stack",
     "access": "external",
     "depends": [
         {
-            "key": "arpspoofvictim",
+            "key": "heartbleedserver",
             "required": true
         },
-        {
-            "key": "arpspoofserver",
-            "required": true
-        }
+	{
+	    "key": "heartbleedvictim",
+	    "required": true
+	}
     ],
     "ports": [
         {
-            "port": 8888,
+            "port": 80,
             "protocol": "http",
             "contextPath": "/"
         }
@@ -28,17 +28,16 @@
     "readinessProbe": {
         "type": "tcp",
         "path": "",
-        "port": 8888,
+        "port": 80,
         "initialDelay": 30,
         "timeout": 500
     },
     "resourceLimits": {
-        "cpuMax": 100,
+        "cpuMax": 1000,
         "cpuDefault": 100,
-        "memMax": 100,
-        "memDefault": 50
+        "memMax": 4096,
+        "memDefault": 100
     },
-	"privileged": true,
 	"authRequired": true,
-    "info": "https://github.com/cheese-hub/arpspoof/tree/master/hacker-notebook"
+    "info": "https://github.com/rkalyanapurdue/heartbleed/tree/master/heartbleed-hacker"
 }
