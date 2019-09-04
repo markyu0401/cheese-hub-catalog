@@ -4,7 +4,8 @@
     "description": "",
     "logo": "/asset/png/logos/ndslabs-badge.png",
     "image": {
-        "name": "rkalyana/arpspoof-server"
+        "name": "rkalyana/arpspoof-server",
+        "tags": ["latest"]
     },
     "access": "external",
     "ports": [
@@ -28,5 +29,6 @@
         "memDefault": 200
     },
 	"authRequired": true,
+    "collocate": true,
     "info": "https://github.com/cheese-hub/arpspoof/tree/master/server"
 }

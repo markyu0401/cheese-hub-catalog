@@ -4,7 +4,8 @@
     "description": "Demonstration of the ARP Poisoning attack",
     "logo": "/asset/png/logos/ndslabs-badge.png",
     "image": {
-        "name": "rkalyana/arpspoof-hacker"
+        "name": "rkalyana/arpspoof-hacker",
+        "tags": ["latest"]
     },
     "display": "stack",
     "access": "external",
@@ -40,5 +41,6 @@
     },
 	"privileged": true,
 	"authRequired": true,
+    "collocate": true,
     "info": "https://github.com/cheese-hub/arpspoof/tree/master/hacker-notebook"
 }
