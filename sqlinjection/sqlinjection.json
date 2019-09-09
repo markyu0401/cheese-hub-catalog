@@ -25,12 +25,12 @@
         "timeout": 500
     },
     "resourceLimits": {
-        "cpuMax": 100,
+        "cpuMax": 1000,
         "cpuDefault": 100,
-        "memMax": 100,
-        "memDefault": 50
+        "memMax": 1024,
+        "memDefault": 100
     },
 	"privileged": true,
 	"authRequired": true,
-    "info": "https://github.com/cheese-hub/sqlinjection"
+    "info": "https://cheese-hub.github.io/secure-coding/02-sqlinjection/index.html"
 }

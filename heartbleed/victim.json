@@ -24,9 +24,9 @@
     "resourceLimits": {
         "cpuMax": 1000,
         "cpuDefault": 100,
-        "memMax": 4096,
+        "memMax": 1024,
         "memDefault": 100
     },
 	"authRequired": true,
-    "info": "https://github.com/rkalyanapurdue/heartbleed/tree/master/heartbleed-victim"
+    "info": "https://cheese-hub.github.io/secure-coding/03-heartbleed/index.html"
 }

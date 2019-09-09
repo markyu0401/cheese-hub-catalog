@@ -23,12 +23,12 @@
         "timeout": 500
     },
     "resourceLimits": {
-        "cpuMax": 100,
+        "cpuMax": 1000,
         "cpuDefault": 100,
-        "memMax": 500,
-        "memDefault": 200
+        "memMax": 1024,
+        "memDefault": 100
     },
 	"authRequired": true,
     "collocate": true,
-    "info": "https://github.com/cheese-hub/arpspoof/tree/master/server"
+    "info": "https://cheese-hub.github.io/network-security/02-arpspoof/index.html"
 }

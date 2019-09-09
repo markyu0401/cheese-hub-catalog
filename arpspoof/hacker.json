@@ -34,13 +34,13 @@
         "timeout": 500
     },
     "resourceLimits": {
-        "cpuMax": 100,
+        "cpuMax": 1000,
         "cpuDefault": 100,
-        "memMax": 100,
-        "memDefault": 50
+        "memMax": 1024,
+        "memDefault": 100
     },
 	"privileged": true,
 	"authRequired": true,
     "collocate": true,
-    "info": "https://github.com/cheese-hub/arpspoof/tree/master/hacker-notebook"
+    "info": "https://cheese-hub.github.io/network-security/02-arpspoof/index.html"
 }
