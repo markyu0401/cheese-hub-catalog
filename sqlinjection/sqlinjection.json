@@ -28,7 +28,7 @@
         "cpuMax": 1000,
         "cpuDefault": 100,
         "memMax": 1024,
-        "memDefault": 100
+        "memDefault": 128
     },
 	"privileged": true,
 	"authRequired": true,

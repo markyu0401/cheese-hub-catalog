@@ -25,7 +25,7 @@
         "cpuMax": 1000,
         "cpuDefault": 100,
         "memMax": 1024,
-        "memDefault": 100
+        "memDefault": 512
     },
 	"authRequired": true,
     "info": "https://cheese-hub.github.io/secure-coding/03-heartbleed/index.html"
