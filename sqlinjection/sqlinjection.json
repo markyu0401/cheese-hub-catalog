@@ -30,7 +30,6 @@
         "memMax": 1024,
         "memDefault": 128
     },
-	"privileged": true,
-	"authRequired": true,
+    "authRequired": true,
     "info": "https://cheese-hub.github.io/secure-coding/02-sqlinjection/index.html"
 }

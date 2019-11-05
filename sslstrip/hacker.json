@@ -38,8 +38,12 @@
         "memMax": 1024,
         "memDefault": 256
     },
-	"privileged": true,
-	"authRequired": true,
-	"collocate": true,
+    "securityContext": {
+        "capabilities": {
+            "add": ["NET_ADMIN"]
+        }  
+    },  
+    "authRequired": true,
+    "collocate": true,
     "info": "https://cheese-hub.github.io/network-security/03-sslstrip/index.html"
 }
