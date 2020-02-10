@@ -39,8 +39,12 @@
         "memMax": 1024,
         "memDefault": 128
     },
-	"privileged": true,
-	"authRequired": true,
+    "securityContext": {
+        "capabilities": {
+            "add": ["NET_ADMIN"]
+        } 
+    },
+    "authRequired": true,
     "collocate": true,
     "info": "https://cheese-hub.github.io/network-security/02-arpspoof/index.html"
 }
