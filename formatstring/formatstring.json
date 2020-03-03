@@ -1,0 +1,35 @@
+{
+    "key": "formatstring",
+    "label": "Format String Vulnerability",
+    "description": "Demonstration of the Format String Vulnerability",
+    "logo": "/asset/png/logos/ndslabs-badge.png",
+    "image": {
+        "name": "liux0614/formatstring"
+    },
+    "display": "stack",
+    "access": "external",
+    "depends": [
+    ],
+    "ports": [
+        {
+            "port": 80,
+            "protocol": "http",
+            "contextPath": "/"
+        }
+    ],
+    "readinessProbe": {
+        "type": "tcp",
+        "path": "",
+        "port": 80,
+        "initialDelay": 30,
+        "timeout": 500
+    },
+    "resourceLimits": {
+        "cpuMax": 1000,
+        "cpuDefault": 100,
+        "memMax": 1024,
+        "memDefault": 512
+    },
+    "authRequired": true,
+    "info": "https://cheese-hub.github.io/secure-coding/04-formatstring/index.html"
+}

@@ -1,0 +1,35 @@
+{
+    "key": "return2libc",
+    "label": "Return-2-libc Attack",
+    "description": "Demonstration of the Return-2-libc Attack",
+    "logo": "/asset/png/logos/ndslabs-badge.png",
+    "image": {
+        "name": "liux0614/return2libc"
+    },
+    "display": "stack",
+    "access": "external",
+    "depends": [
+    ],
+    "ports": [
+        {
+            "port": 8888,
+            "protocol": "http",
+            "contextPath": "/"
+        }
+    ],
+    "readinessProbe": {
+        "type": "tcp",
+        "path": "",
+        "port": 8888,
+        "initialDelay": 30,
+        "timeout": 500
+    },
+    "resourceLimits": {
+        "cpuMax": 1000,
+        "cpuDefault": 100,
+        "memMax": 1024,
+        "memDefault": 512
+    },
+    "authRequired": true,
+    "info": "https://cheese-hub.github.io/secure-coding/05-ret2libc/index.html"
+}
