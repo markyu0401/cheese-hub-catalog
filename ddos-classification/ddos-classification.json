@@ -1,0 +1,35 @@
+{
+    "key": "ddos-classification",
+    "label": "DDoS Traffic Classification",
+    "description": "Demonstration of simple machine learning analysis of simulated DDoS attack network traffic data",
+    "logo": "/asset/png/logos/ndslabs-badge.png",
+    "image": {
+        "name": "rkalyana/ddos-classification"
+    },
+    "display": "stack",
+    "access": "external",
+    "depends": [
+    ],
+    "ports": [
+        {
+            "port": 8888,
+            "protocol": "http",
+            "contextPath": "/"
+        }
+    ],
+    "readinessProbe": {
+        "type": "tcp",
+        "path": "",
+        "port": 8888,
+        "initialDelay": 30,
+        "timeout": 500
+    },
+    "resourceLimits": {
+        "cpuMax": 1000,
+        "cpuDefault": 100,
+        "memMax": 2048,
+        "memDefault": 2048
+    },
+    "authRequired": true,
+    "info": "https://cheese-hub.github.io/machine-learning/02-ddos-classification/index.html"
+}
