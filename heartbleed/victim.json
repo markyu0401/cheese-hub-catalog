@@ -27,6 +27,7 @@
         "memMax": 1024,
         "memDefault": 512
     },
-	"authRequired": true,
+    "authRequired": true,
+    "collocate": true,
     "info": "https://cheese-hub.github.io/secure-coding/03-heartbleed/index.html"
 }
