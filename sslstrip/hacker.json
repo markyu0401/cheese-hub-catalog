@@ -2,7 +2,7 @@
     "key": "sslstriphacker",
     "label": "SSL Strip",
     "description": "Demonstration of the SSL Strip attack",
-    "logo": "/asset/png/logos/ndslabs-badge.png",
+    "logo": "/ndslabs-badge.png",
     "image": {
         "name": "rkalyana/sslstrip-hacker"
     },
@@ -43,6 +43,7 @@
             "add": ["NET_ADMIN"]
         }  
     },  
+    "tags": ["2","1000"],
     "authRequired": true,
     "collocate": true,
     "info": "https://cheese-hub.github.io/network-security/03-sslstrip/index.html"

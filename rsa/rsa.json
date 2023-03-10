@@ -2,7 +2,7 @@
     "key": "rsa",
     "label": "RSA Public-Key Encryption and Signature",
     "description": "Demonstration of RSA encryption and decryption",
-    "logo": "/asset/png/logos/ndslabs-badge.png",
+    "logo": "/ndslabs-badge.png",
     "image": {
         "name": "liux0614/rsa"
     },
@@ -30,6 +30,7 @@
         "memMax": 1024,
         "memDefault": 512
     },
+    "tags": ["1","1400"],
     "authRequired": true,
     "info": "https://cheese-hub.github.io/cryptography/02-rsa/index.html"
 }

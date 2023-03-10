@@ -2,7 +2,7 @@
     "key": "heartbleedhacker",
     "label": "HeartBleed Hacker",
     "description": "Demonstration of the HeartBleed bug in the OpenSSL library",
-    "logo": "/asset/png/logos/ndslabs-badge.png",
+    "logo": "/ndslabs-badge.png",
     "image": {
         "name": "rkalyana/heartbleed-hacker"
     },
@@ -38,6 +38,7 @@
         "memMax": 1024,
         "memDefault": 512
     },
+    "tags": ["4","1000"],
     "authRequired": true,
     "collocate": true,
     "info": "https://cheese-hub.github.io/secure-coding/03-heartbleed/index.html"

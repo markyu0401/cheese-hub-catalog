@@ -2,7 +2,7 @@
     "key": "honeypotserver",
     "label": "SSH Honeypot",
     "description": "Demonstration of an SSH Honeypot",
-    "logo": "/asset/png/logos/ndslabs-badge.png",
+    "logo": "/ndslabs-badge.png",
     "image": {
         "name": "rkalyana/honeypot-server",
         "tags": ["latest"]
@@ -21,6 +21,7 @@
         "memMax": 512,
         "memDefault": 256
     },
+    "tags": ["2","1000"],
 	"authRequired": true,
     "info": "https://cheese-hub.github.io/network-security/04-ssh-honeypot/index.html"
 }

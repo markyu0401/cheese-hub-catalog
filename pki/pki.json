@@ -2,7 +2,7 @@
     "key": "pki",
     "label": "Public Key Infrastructure",
     "description": "Demonstration of PKI and its use in defeating man-in-the-middle attacks",
-    "logo": "/asset/png/logos/ndslabs-badge.png",
+    "logo": "/ndslabs-badge.png",
     "image": {
         "name": "liux0614/pki"
     },
@@ -30,6 +30,7 @@
         "memMax": 1024,
         "memDefault": 512
     },
+    "tags": ["1","1000"],
     "authRequired": true,
     "info": "https://cheese-hub.github.io/cryptography/03-pki/index.html"
 }

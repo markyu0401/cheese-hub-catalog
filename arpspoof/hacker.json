@@ -2,7 +2,7 @@
     "key": "arpspoofhacker",
     "label": "ArpSpoof",
     "description": "Demonstration of the ARP Poisoning attack",
-    "logo": "/asset/png/logos/ndslabs-badge.png",
+    "logo": "/ndslabs-badge.png",
     "image": {
         "name": "rkalyana/arpspoof-hacker",
         "tags": ["latest"]
@@ -44,6 +44,7 @@
             "add": ["NET_ADMIN"]
         } 
     },
+    "tags": ["2","2000"],
     "authRequired": true,
     "collocate": true,
     "info": "https://cheese-hub.github.io/network-security/02-arpspoof/index.html"

@@ -2,7 +2,7 @@
     "key": "honeypotclient",
     "label": "SSH Honeypot Client",
     "description": "",
-    "logo": "/asset/png/logos/ndslabs-badge.png",
+    "logo": "/ndslabs-badge.png",
     "image": {
         "name": "rkalyana/honeypot-client",
         "tags": ["latest"]

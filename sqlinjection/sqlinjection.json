@@ -2,7 +2,7 @@
     "key": "sqlinjection",
     "label": "SQL Injection",
     "description": "Demonstration of an SQL injection attack and fix",
-    "logo": "/asset/png/logos/ndslabs-badge.png",
+    "logo": "/ndslabs-badge.png",
     "image": {
         "name": "rkalyana/sqlinjection"
     },
@@ -30,6 +30,7 @@
         "memMax": 1024,
         "memDefault": 128
     },
+    "tags": ["4","2000"],
     "authRequired": true,
     "info": "https://cheese-hub.github.io/secure-coding/02-sqlinjection/index.html"
 }

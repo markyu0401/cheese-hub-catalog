@@ -2,7 +2,7 @@
     "key": "arpspoofvictim",
     "label": "ArpSpoof Victim",
     "description": "",
-    "logo": "/asset/png/logos/ndslabs-badge.png",
+    "logo": "/ndslabs-badge.png",
     "image": {
         "name": "rkalyana/arpspoof-victim",
         "tags": ["latest"]

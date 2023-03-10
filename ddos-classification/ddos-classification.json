@@ -1,8 +1,8 @@
 {
-    "key": "ddos-classification",
+    "key": "ddosclassification",
     "label": "DDoS Traffic Classification",
     "description": "Demonstration of simple machine learning analysis of simulated DDoS attack network traffic data",
-    "logo": "/asset/png/logos/ndslabs-badge.png",
+    "logo": "/ndslabs-badge.png",
     "image": {
         "name": "rkalyana/ddos-classification"
     },
@@ -30,6 +30,7 @@
         "memMax": 2048,
         "memDefault": 2048
     },
+    "tags": ["3","2000"],
     "authRequired": true,
     "info": "https://cheese-hub.github.io/machine-learning/02-ddos-classification/index.html"
 }

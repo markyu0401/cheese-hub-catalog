@@ -2,7 +2,7 @@
     "key": "sslstripserver",
     "label": "SSLStrip Server",
     "description": "",
-    "logo": "/asset/png/logos/ndslabs-badge.png",
+    "logo": "/ndslabs-badge.png",
     "image": {
         "name": "rkalyana/sslstrip-server"
     },

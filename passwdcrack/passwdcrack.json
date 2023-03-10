@@ -2,7 +2,7 @@
     "key": "passwdcrack",
     "label": "Password Hash Cracking",
     "description": "Demonstration of password hash cracking",
-    "logo": "/asset/png/logos/ndslabs-badge.png",
+    "logo": "/ndslabs-badge.png",
     "image": {
         "name": "liux0614/pwdcrack"
     },
@@ -30,6 +30,7 @@
         "memMax": 1024,
         "memDefault": 512
     },
+    "tags": ["1","1400"],
     "authRequired": true,
     "info": "https://cheese-hub.github.io/cryptography/01-passwordcracking/index.html"
 }
