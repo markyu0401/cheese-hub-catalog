@@ -1,0 +1,25 @@
+{
+    "key": "heapoverflow",
+    "label": "HeapOverflow",
+    "description": "Demonstration of using heap overflow to achieve arbitrary code execution",
+    "display": "stack",
+    "access": "none",
+    "image": {
+        "name": "cheesehub/heap-overflow",
+        "tags": [
+            "latest"
+        ]
+    },
+    "logo": "",
+    "info": "https://github.com/cheese-hub/Heap-Overflow",
+    "depends": [],
+    "config": [],
+    "ports": [],
+    "volumeMounts": [],
+    "additionalResources": [],
+    "repositories": [],
+    "command": [ "/bin/sh", "-c", "while true; do sleep 30; done;" ],
+    "args": [],
+    "catalog": "system",
+    "tags": []
+}
