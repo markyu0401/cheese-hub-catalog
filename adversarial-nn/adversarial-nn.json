@@ -1,0 +1,36 @@
+{
+    "key": "adversarialnn",
+    "label": "Adversarial Neural Network Attack",
+    "description": "Demonstration of adversarial attacks on a neural network trained on a dataset of handwritten digits",
+    "logo": "/ndslabs-badge.png",
+    "image": {
+        "name": "cheesehub/adversarial-nn"
+    },
+    "display": "stack",
+    "access": "external",
+    "depends": [
+    ],
+    "ports": [
+        {
+            "port": 8888,
+            "protocol": "http",
+            "contextPath": "/"
+        }
+    ],
+    "readinessProbe": {
+        "type": "tcp",
+        "path": "",
+        "port": 8888,
+        "initialDelay": 30,
+        "timeout": 500
+    },
+    "resourceLimits": {
+        "cpuMax": 1000,
+        "cpuDefault": 100,
+        "memMax": 2048,
+        "memDefault": 2048
+    },
+    "tags": ["3","2000"],
+    "authRequired": true,
+    "info": "https://cheese-hub.github.io/machine-learning/04-adversarial-neural-network/index.html"
+}
