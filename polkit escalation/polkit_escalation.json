@@ -1,0 +1,39 @@
+{
+    "_id": {
+        "$oid": "657ca67f58115eaf4567f30d"
+    },
+    "access": "none",
+    "additionalResources": [],
+    "args": [],
+    "catalog": "user",
+    "command": [],
+    "config": [],
+    "creator": "yu1112purdueedu",
+    "depends": [],
+    "description": "",
+    "display": "stack",
+    "image": {
+        "name": "qyu41/polkitescalation",
+        "tags": [
+            "latest"
+        ]
+    },
+    "info": "",
+    "key": "polkitescalation",
+    "label": " Polkit Privilege Escalation",
+    "logo": "/ndslabs-badge.png",
+    "maintainer": "",
+    "ports": [
+        {
+            "contextPath": "/",
+            "port": 80,
+            "protocol": "http"
+        }
+    ],
+    "readinessProbe": {},
+    "repositories": [],
+    "resourceLimits": {},
+    "securityContext": {},
+    "tags": [],
+    "volumeMounts": []
+}
