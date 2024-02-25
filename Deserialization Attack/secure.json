@@ -1,0 +1,39 @@
+{
+    "_id": {
+        "$oid": "657c7d7958115eaf4567f306"
+    },
+    "access": "external",
+    "additionalResources": [],
+    "args": [],
+    "catalog": "user",
+    "command": [],
+    "config": [],
+    "creator": "yu1112purdueedu",
+    "depends": [],
+    "description": "",
+    "display": "stack",
+    "image": {
+        "name": "qyu41/deserialization_secure",
+        "tags": [
+            "latest"
+        ]
+    },
+    "info": "",
+    "key": "deserilizationsecure",
+    "label": "Deserilization Secure",
+    "logo": "/ndslabs-badge.png",
+    "maintainer": "",
+    "ports": [
+        {
+            "contextPath": "",
+            "port": 80,
+            "protocol": "http"
+        }
+    ],
+    "readinessProbe": {},
+    "repositories": [],
+    "resourceLimits": {},
+    "securityContext": {},
+    "tags": [],
+    "volumeMounts": []
+}

@@ -1,0 +1,39 @@
+{
+    "_id": {
+        "$oid": "657b960058115eaf4567f2fe"
+    },
+    "access": "external",
+    "additionalResources": [],
+    "args": [],
+    "catalog": "user",
+    "command": [],
+    "config": [],
+    "creator": "yu1112purdueedu",
+    "depends": [],
+    "description": "",
+    "display": "stack",
+    "image": {
+        "name": "qyu41/deserialization_victim",
+        "tags": [
+            "latest"
+        ]
+    },
+    "info": "",
+    "key": "deserilizationvictim",
+    "label": "Deserilization Victim",
+    "logo": "/ndslabs-badge.png",
+    "maintainer": "",
+    "ports": [
+        {
+            "contextPath": "",
+            "port": 80,
+            "protocol": "http"
+        }
+    ],
+    "readinessProbe": {},
+    "repositories": [],
+    "resourceLimits": {},
+    "securityContext": {},
+    "tags": [],
+    "volumeMounts": []
+}

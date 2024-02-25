@@ -1,0 +1,48 @@
+{
+    "_id": {
+        "$oid": "657c9d3158115eaf4567f30a"
+    },
+    "access": "external",
+    "additionalResources": [],
+    "args": [],
+    "catalog": "user",
+    "command": [],
+    "config": [],
+    "creator": "yu1112purdueedu",
+    "depends": [
+        {
+            "key": "deserilizationvictim",
+            "required": true
+        },
+        {
+            "key": "deserilizationsecure",
+            "required": true
+        }
+    ],
+    "description": "",
+    "display": "stack",
+    "image": {
+        "name": "qyu41/deserialization_attacker",
+        "tags": [
+            "latest"
+        ]
+    },
+    "info": "",
+    "key": "deserialization",
+    "label": "Deserialization Attack",
+    "logo": "/ndslabs-badge.png",
+    "maintainer": "",
+    "ports": [
+        {
+            "contextPath": "",
+            "port": 80,
+            "protocol": "http"
+        }
+    ],
+    "readinessProbe": {},
+    "repositories": [],
+    "resourceLimits": {},
+    "securityContext": {},
+    "tags": [],
+    "volumeMounts": []
+}
