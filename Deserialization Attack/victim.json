@@ -13,7 +13,7 @@
     "description": "",
     "display": "stack",
     "image": {
-        "name": "qyu41/deserialization_victim",
+        "name": "qyu41/victim",
         "tags": [
             "latest"
         ]
@@ -26,7 +26,7 @@
     "ports": [
         {
             "contextPath": "",
-            "port": 80,
+            "port": 8080,
             "protocol": "http"
         }
     ],

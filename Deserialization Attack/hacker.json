@@ -1,6 +1,6 @@
 {
     "_id": {
-        "$oid": "657c9d3158115eaf4567f30a"
+        "$oid": "657c6fa458115eaf4567f2ff"
     },
     "access": "external",
     "additionalResources": [],
@@ -22,21 +22,21 @@
     "description": "",
     "display": "stack",
     "image": {
-        "name": "qyu41/deserialization_attacker",
+        "name": "qyu41/attacker",
         "tags": [
             "latest"
         ]
     },
     "info": "",
-    "key": "deserialization",
-    "label": "Deserialization Attack",
+    "key": "deserilizationattacker",
+    "label": "Deserilization Attacker",
     "logo": "/ndslabs-badge.png",
     "maintainer": "",
     "ports": [
         {
             "contextPath": "",
             "port": 80,
-            "protocol": "http"
+            "protocol": "HTTP"
         }
     ],
     "readinessProbe": {},
